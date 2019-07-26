@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Header, Button, Input, Dropdown } from 'semantic-ui-react';
+import { Container, Header } from 'semantic-ui-react';
 import ToDoList from './components/ToDoList';
+import ToDoNew from './components/ToDoNew';
 
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
@@ -25,6 +26,7 @@ class App extends React.Component {
           labelPosition='right'
           placeholder='Find domain'
         /> */}
+        <ToDoNew />
         <ToDoList />
       </Container>
     );
