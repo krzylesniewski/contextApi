@@ -14,8 +14,8 @@ class App extends React.Component {
     ]
     return (
       <Container text>
-        <Header as="h1">Header</Header>
-        <Button primary content="Click me!"/>
+        <Header as="h1">To Do List</Header>
+        {/* <Button primary content="Click me!"/>
         <Button secondary content="Click me!"/>
         <Input placeholder="Wpisz tekst ..." error/>
         <Input placeholder="Wpisz tekst ..." icon='search'/>
@@ -24,9 +24,8 @@ class App extends React.Component {
           label={<Dropdown defaultValue='.com' options={options} />}
           labelPosition='right'
           placeholder='Find domain'
-        />
-
-      <ToDoList />
+        /> */}
+        <ToDoList />
       </Container>
     );
   }

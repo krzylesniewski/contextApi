@@ -13,17 +13,16 @@ const ToDoItem = (props: Props) => {
             <List.Icon name='file alternate'  size='big' color="blue"/>
             <List.Content className='item-content'>
                 <span>{props.text}</span>
-                <Button animated>
+                <Button animated primary>
                     <ButtonContent visible>Edytuj</ButtonContent>
                     <ButtonContent hidden>
                         <Icon name='arrow right' />
                     </ButtonContent>
                 </Button>
-                <Button>
+                <Button secondary>
                     <Icon name='delete'/>
                 </Button>
             </List.Content>
-            
         </List.Item>
     )
 }
